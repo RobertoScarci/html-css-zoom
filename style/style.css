@@ -24,6 +24,13 @@ header{
     padding-bottom: 2rem;
 }
 
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: grey;
+    color: white;
+}
+
 header h2,
 header i{
     background-color: grey;
@@ -36,8 +43,15 @@ header i{
 }
 
 header > i{
-    font-size: 12px;
+    font-size: 15px;
     vertical-align: bottom;
+    padding-right: .45rem;
+    padding-top: .15rem;
+    padding-left: .35rem;
+}
+
+header h2{
+    padding-right: .25rem;
 }
 
 section{
@@ -64,4 +78,52 @@ article p{
 
 section img{
     width: 180px;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+section div{
+    padding-top: .25rem;
+}
+
+div > i{
+    margin: .5rem;
+}
+
+.icons span{
+    margin-right: .5rem;
+}
+
+div.center-icons > i{
+    padding-left: 2.4rem;
+}
+
+div.center-icons span{
+    margin: 0 .4rem;
+    padding-left: .25rem;
+}
+
+div span{
+    font-size: 12px;
+    margin: 0 .35rem;
+}
+
+div.mic-video > span{
+    padding-left: .25rem;
+}
+
+div.last-icons{
+   color: red;
+}
+
+div.last-icons > i{
+    padding-left: .8rem;
+}
+
+.green{
+    color: lightgreen;
 }
